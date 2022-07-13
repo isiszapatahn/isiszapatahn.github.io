@@ -102,8 +102,14 @@ export const Projects = () => {
     {
       title: "Lab. Polanco",
       description: "Business Intelligence",
-      imgUrl: projmanualcalidad,
+      imgUrl: projlabpolanco,
     },
+    {
+      title: "Clothing Store Admin",
+      description: "Genexus",
+      imgUrl: projtiendaderopagenexus,
+    },
+    
     
     
     
