@@ -47,7 +47,42 @@ export const Projects = () => {
     
   ];
 
-  const projectsrecent = [
+  const projectspersonal = [
+    {
+      title: "Portfolio Complete Isis Zapata",
+      description: "Web development",
+      imgUrl: projImg1,
+    },
+    {
+      title: "Signal Clone",
+      description: "Web and mobile development",
+      imgUrl: projImg2,
+    },
+    {
+      title: "Mini portfolio",
+      description: "Desktop Development",
+      imgUrl: projImg3,
+    },
+    {
+      title: "Business Startup",
+      description: "Desktop Development",
+      imgUrl: projImg1,
+    },
+    {
+      title: "Business Startup",
+      description: "Design & Development",
+      imgUrl: projImg2,
+    },
+    {
+      title: "Business Startup",
+      description: "Design & Development",
+      imgUrl: projImg3,
+    },
+    
+    
+  ];
+
+  const projectswork = [
     {
       title: "Portfolio Complete Isis Zapata",
       description: "Web development",
@@ -95,13 +130,13 @@ export const Projects = () => {
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
-                      <Nav.Link eventKey="first">Featured projects</Nav.Link>
+                      <Nav.Link eventKey="first">University Projects</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
                       <Nav.Link eventKey="second">Personal projects</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="third">See more projects</Nav.Link>
+                      <Nav.Link eventKey="third">Work Projects</Nav.Link>
                     </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
@@ -122,7 +157,7 @@ export const Projects = () => {
                     <Tab.Pane eventKey="second">
                       <Row>
                         {
-                          projectsrecent.map((project, index) => {
+                          projectspersonal.map((project, index) => {
                             return ( 
                               <ProjectCard
                                 key={index}
@@ -137,9 +172,18 @@ export const Projects = () => {
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <p>Visit my cv at:
-                        <a href="https://isinicolle.github.io/proyectos.html" target="_blank">All my projects</a>
-                      </p>
+                      <Row>
+                        {
+                          projectswork.map((project, index) => {
+                            return ( 
+                              <ProjectCard
+                                key={index}
+                                {...project}
+                                />
+                            )
+                          })
+                        }
+                      </Row>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
