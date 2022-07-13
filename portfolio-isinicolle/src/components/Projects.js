@@ -2,11 +2,33 @@ import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 
 /*projects image */
-import projImg1 from "../assets/img/Proyectos/proyectos-signalclone.png";
-import projImg2 from "../assets/img/Proyectos/proyectos-signalclone.png";
-import projImg3 from "../assets/img/Proyectos/proyectos-signalclone.png";
+import projsignal from "../assets/img/Proyectos/proyectos-signalclone.png";
+import projtodo from "../assets/img/Proyectos/proyecto-todoreactnative.png";
+import projportaisis from "../assets/img/Proyectos/proyecto-portafolioIsisZapata.jpg";
+import projtiendaderopagenexus from "../assets/img/Proyectos/proyecto-tiendaderopagenexus.jpg";
+import projsalument from "../assets/img/Proyectos/proyecto-salument.jpg";
+import projpanaderiadelicius from "../assets/img/Proyectos/proyecto-panaderiadelicus.jpg";
+import projbakedlove from "../assets/img/Proyectos/proyecto-panaderiabakedlove.jpg";
+import projminiportafolio from "../assets/img/Proyectos/proyecto-miniportfolioisis.png";
+import projmanualcalidad from "../assets/img/Proyectos/proyecto-manualdecalidad.jpg";
+import projiccunicah from "../assets/img/Proyectos/proyecto-iccunicah.png";
+import projlabpolanco from "../assets/img/Proyectos/proyecto-laboratoriopolanco.jpg";
+import projphpferreteria from "../assets/img/Proyectos/proyecto-ferreteriawebphpadmin.jpg";
+import projhandlebarsferreteria from "../assets/img/Proyectos/proyecto-ferreteriawebhandlebarscliente.jpg";
+import projmoviladminferreteria from "../assets/img/Proyectos/proyecto-ferreteriamoviluadmin.jpg";
+import projmovilclienteferreteria from "../assets/img/Proyectos/proyecto-ferreteriamovilcliente.jpg";
+import proescuela from "../assets/img/Proyectos/proyecto-escuelaenciendeunaluz.jpg";
+import projcvnext from "../assets/img/Proyectos/proyecto-cvnextjs.png";
+import projcruceros from "../assets/img/Proyectos/proyecto-crucerosjava.jpg";
+import projcamidental from "../assets/img/Proyectos/proyecto-camidentalcsharp.jpg";
+import projandroidjuegos from "../assets/img/Proyectos/proyecto-androidjuegos.jpg";
+import projanalisisoctecsa from "../assets/img/Proyectos/proyecto-analisisydiseno.jpg";
 
-import proj1 from "../assets/img/Proyectos/proyectos-signalclone.png";
+
+
+
+
+
 
 
 import colorSharp2 from "../assets/img/color-sharp2.png";
@@ -18,9 +40,9 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Portfolio Complete Isis Zapata",
+      title: "App Mobile Ferretear Admin",
       description: "Web development",
-      imgUrl: projImg1,
+      imgUrl: proj,
     },
     {
       title: "Signal Clone",
