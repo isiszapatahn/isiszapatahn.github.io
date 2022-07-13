@@ -122,6 +122,33 @@ export const Projects = () => {
       description: "Web and mobile development",
       imgUrl: projsignal,
     },
+    {
+      title: "Portafolio complete Isis",
+      description: "Web development",
+      imgUrl: projportaisis,
+    },
+    {
+      title: "Portafolio mini Isis",
+      description: "Web development",
+      imgUrl: projminiportafolio,
+    },
+    {
+      title: "CV Isis",
+      description: "Web development",
+      imgUrl: projcvnext,
+    },
+    {
+      title: "To - do",
+      description: "Web development",
+      imgUrl: projtodo,
+    },
+    {
+      title: "Faculty of Engineering in Computer Science",
+      description: "Web development",
+      imgUrl: projiccunicah,
+    },
+
+
 
     
     
