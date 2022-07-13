@@ -40,11 +40,50 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "App Mobile Ferretear Admin",
+      title: "Ferretear Admin",
       description: "Web and mobile development",
       imgUrl: projmoviladminferreteria,
     },
-  
+    {
+      title: "Ferretear Client",
+      description: "Web and mobile development",
+      imgUrl: projmovilclienteferreteria,
+    },
+    {
+      title: "Beizel Cruises",
+      description: "Desktop development",
+      imgUrl: projcruceros,
+    },
+    {
+      title: "3 Games in 1",
+      description: "Mobile development",
+      imgUrl: projandroidjuegos,
+    },
+    {
+      title: "SaluMent",
+      description: "Web development",
+      imgUrl: projsalument,
+    },
+    {
+      title: "CamiDental",
+      description: "Desktop development",
+      imgUrl: projcamidental,
+    },
+    {
+      title: "Ferreteria Web Admin",
+      description: "Web development",
+      imgUrl: projphpferreteria,
+    },
+    {
+      title: "Ferretear Web Client",
+      description: "Web development",
+      imgUrl: projhandlebarsferreteria,
+    },
+    {
+      title: "Octecsa",
+      description: "Analysis and design of systems",
+      imgUrl: projanalisisoctecsa,
+    },
     
     
   ];
