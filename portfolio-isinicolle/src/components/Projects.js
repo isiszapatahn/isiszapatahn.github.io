@@ -24,13 +24,13 @@ export const Projects = () => {
       imgUrl: projImg2,
     },
     {
-      title: "CamiDental",
+      title: "Mini portfolio",
       description: "Desktop Development",
       imgUrl: projImg3,
     },
     {
       title: "Business Startup",
-      description: "Design & Development",
+      description: "Desktop Development",
       imgUrl: projImg1,
     },
     {
@@ -43,6 +43,7 @@ export const Projects = () => {
       description: "Design & Development",
       imgUrl: projImg3,
     },
+    
   ];
 
   return (
