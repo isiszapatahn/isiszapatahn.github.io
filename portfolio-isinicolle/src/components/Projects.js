@@ -41,104 +41,32 @@ export const Projects = () => {
   const projects = [
     {
       title: "App Mobile Ferretear Admin",
-      description: "Web development",
-      imgUrl: proj,
-    },
-    {
-      title: "Signal Clone",
       description: "Web and mobile development",
-      imgUrl: projImg2,
+      imgUrl: projmoviladminferreteria,
     },
-    {
-      title: "Mini portfolio",
-      description: "Desktop Development",
-      imgUrl: projImg3,
-    },
-    {
-      title: "Business Startup",
-      description: "Desktop Development",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
-    },
+  
     
     
   ];
 
   const projectspersonal = [
     {
-      title: "Portfolio Complete Isis Zapata",
-      description: "Web development",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Signal Clone",
+      title: "Clone Signal",
       description: "Web and mobile development",
-      imgUrl: projImg2,
+      imgUrl: projsignal,
     },
-    {
-      title: "Mini portfolio",
-      description: "Desktop Development",
-      imgUrl: projImg3,
-    },
-    {
-      title: "Business Startup",
-      description: "Desktop Development",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
-    },
+
     
     
   ];
 
   const projectswork = [
     {
-      title: "Portfolio Complete Isis Zapata",
+      title: "School Enciende una Luz",
       description: "Web development",
-      imgUrl: projImg1,
+      imgUrl: proescuela,
     },
-    {
-      title: "Signal Clone",
-      description: "Web and mobile development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Mini portfolio",
-      description: "Desktop Development",
-      imgUrl: projImg3,
-    },
-    {
-      title: "Business Startup",
-      description: "Desktop Development",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
-    },
+
     
     
   ];
