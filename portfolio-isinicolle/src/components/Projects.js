@@ -84,6 +84,28 @@ export const Projects = () => {
       description: "Analysis and design of systems",
       imgUrl: projanalisisoctecsa,
     },
+    {
+      title: "Panaderia Delicius",
+      description: "Web development",
+      imgUrl: projpanaderiadelicius,
+    },
+    {
+      title: "Panaderia BakedLove",
+      description: "Web development",
+      imgUrl: projbakedlove,
+    },
+    {
+      title: "Ferreteria Maresa",
+      description: "Total Quality Manual",
+      imgUrl: projmanualcalidad,
+    },
+    {
+      title: "Lab. Polanco",
+      description: "Business Intelligence",
+      imgUrl: projmanualcalidad,
+    },
+    
+    
     
     
   ];
